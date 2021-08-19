@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  /* more on this crazy alphanumerical value in a minute! */
+  font-family: 100, Georgia, 'Times New Roman', Times, serif sans-serif;
+  line height: 1.5;
+  background: #fff;
+  margin: 0;
+  padding: 0;
+  background-color: orange;
+}
+/* apply styles to <header> */
+header {
+  padding: 20px 35px;
+  background-color: #39a6b2;
+  list-style-type: none;
+  margin: 0;
+}
+
+header nav {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+header nav ul {
+  list-style-type: none;
+}
+
+header nav ul li {
+  float: left;
+  width: auto;
+  list-style: outside none none;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+h1 {
+  text-align: center;
+}
+
+.damn {
+  border: 5px solid darkblue;
+  height: 400px;
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+}
+
+.naruto {
+  height: 600px;
+  width: 100%;
+  margin: 0;
+  background-image: url("./images/1200px-Naruto_logo.svg.png");
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: colomn;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.hokage 1 {
+flex: 1;
+order: 2;
+}
+
+.hokage 2 {
+flex: 1;
+order: 3;
+}
+
+.hokage 3 {
+flex: 1;
+order: 1;
+}
+
+p {
+  color: black;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: colomn;
+  }
+}
+
+@media screen and (min-width: 480px;) {
+
+}
+
+@media screen and (min-width: 768px;) {
+
+}
+
+@media screen and (min-width: 992px;) {
+
+}
+
+@media screen and (min-width: 1200px;) {
+  
+}
